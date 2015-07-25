@@ -1,0 +1,29 @@
+{
+    "name": "tonyle/MyCore",
+    "type": "zend2-plugin",
+    "description": "ZEND2 plugin",
+    "keywords":[],
+    "homepage": "http://github.com/tonyle/MyCore",
+    "authors": [
+        {
+            "name":"Tonyle",
+            "role":"Author",
+            "homepage":"https://github.com/tonyle"
+        }
+    ],
+    "license": "MIT",
+    "support": {
+        "source":"https://github.com/tonyle/MyCore",
+        "issues":"https://github.com/tonyle/MyCore/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyCore\\": "*"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
