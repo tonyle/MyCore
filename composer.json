@@ -16,17 +16,6 @@
         "source":"https://github.com/tonyle/MyCore",
         "issues":"https://github.com/tonyle/MyCore/issues"
     },
-    "autoload": {
-        "psr-0": {
-            "MyCore\\": "*",
-	    "MyCore\\Lib\\": "*",
-	    "MyCore\\Module\\": "*"
-	    "MyCore\\Mvc\\Model\\": "*",
-	    "MyCore\\Mvc\\Controller\\": "*",
-	    "MyCore\\Utils\\": "*",
-	    "MyCore\\View\\Helper\\": "*"
-        }
-    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0.x-dev"
